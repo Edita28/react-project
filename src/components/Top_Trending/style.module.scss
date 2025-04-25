@@ -1,0 +1,82 @@
+.Top_Trending_cont{
+    display: flex;
+    width: 1530px;
+    height: 767px;
+    background-color: #F5F5F5;
+    border-radius: 12px;
+    margin-left: 195px;
+    margin-top: 115px;
+}
+.Top_Trending__text_container{
+    width: 1320px;
+    height: 532px;
+    margin-left: 105px;
+    margin-top: 115px;
+}
+.Top_Trending_text{
+    font-family: inter;
+    font-weight: 700;
+    font-size: 29.41px;
+    color: #05073C;
+    line-height: 45px;
+}
+.Top_Trending_card_container{
+    width: 1320px;
+    height: 460px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.Top_Trending_Paris{
+    border: 1px solid #E7E6E6;
+    width: 300px;
+    height: 412px;
+    border-radius: 12px;
+}
+.paris_centipede_img{
+    width: 278px;
+    height: 198px;
+    margin-left: 11px;
+    margin-top: 11px;
+}
+.location{
+    margin-left: 42px;
+    font-family: Inter;
+    font-size: 12.29px;
+    line-height: 24.38px;
+    color: #717171;
+}
+.Popular_disc{
+    margin-left: 21px;
+    font-family: Inter;
+    font-size: 15.29px;
+    font-weight: 500;
+    line-height: 24.38px;
+    letter-spacing: 0px;
+    color: #05073c;
+}
+.Popular_price_days{
+    display: flex;
+    width: 258px;
+    height: 41px;
+    border-top: 1px solid #E7E6E6;
+    margin-left: 21px;
+}
+.Popular_days{
+    display: flex;
+    font-weight: 400;
+    font-size: 12.59px;
+    line-height: 24.38px;
+    color: #05073c;
+    font-family: inter;
+    margin-left: 30px;
+}
+.Popular_price{
+    display: flex;
+    margin-left: 90px;
+    font-family: Inter;
+    font-size: 13px;
+    line-height: 24.38px;
+    color: #05073C;
+}

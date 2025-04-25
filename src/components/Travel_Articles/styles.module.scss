@@ -1,0 +1,55 @@
+.Travel_Articles_container{
+    width: 1320px;
+    height: 529px;
+    margin-top: 115px;
+    margin-left: 300px;
+}
+.Travel_Articles_heading{
+    font-family: Inter;
+    font-size: 29.65px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #05073C;
+    padding: 15px;
+}
+.Travel_Articles_cards{
+    display: flex;
+    width: 1320px;
+    height: 450px;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.Travel_Articles_wildrife,
+.Travel_Articles_wild{
+    width: 410px;
+    height: 430px;
+}
+.Travel_Articles_kenya{
+    margin-left: 15px;
+    width: 410px;
+    height: 430px;
+}
+.Travel_Articles_kenya_img,
+.Travel_Articles_wildrife_img,
+.Travel_Articles_wild_img{
+    width: 409px;
+    height: 299px;
+}
+.Travel_Articles_kenya_date,
+.Travel_Articles_wildrife_date,
+.Travel_Articles_wild_date{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 13.89px;
+    line-height: 18.2px;
+}
+.Travel_Articles_kenya_info,
+.Travel_Articles_wildrife_info,
+.Travel_Articles_wild_info{
+    font-family: Inter;
+    font-size: 17.3px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #05073C;
+}

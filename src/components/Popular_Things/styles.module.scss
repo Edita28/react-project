@@ -1,0 +1,86 @@
+.Popular__things_container{
+    width: 1320px;
+    height: 600px;
+    margin-left: 300px;
+    margin-top: 115px;
+}
+
+.Popular__things_text{
+    font-family: inter;
+    font-weight: 700;
+    font-size: 29.88px;
+    line-height: 45px;
+    color: #05073c;
+}
+
+.Popular__things_parent_image {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 20px;
+}
+    
+.Popular__things_cruise{
+    width: 300px;
+    height: 240px;
+}
+.cruises{
+    width: 300px;
+    height: 240px;
+}
+.Popular__things_museum{
+    width: 300px;
+    height: 240px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+.museum{
+    width: 300px;
+    height: 240px;
+}
+.Popular__things_beach {
+    width: 410px;
+    height: 500px;
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+.beach{
+    width: 410px;
+    height: 500px;
+}
+.Popular__things_city{
+    width: 520px;
+    height: 240px;
+    grid-column: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+.city{
+    width: 520px;
+    height: 240px;
+}
+
+.Popular__things_food{
+    width: 190px;
+    height: 240px;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+.food {
+    width: 190px;
+    height: 240px;
+}
+
+.Popular__things_hiking{
+    width: 300px;
+    height: 240px;
+    grid-column-start: 3;
+    grid-row-start: 2;;
+    margin-left: 220px;
+}
+
+.hiking{
+    width: 300px;
+    height: 240px;
+}

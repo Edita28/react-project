@@ -1,0 +1,62 @@
+.Reviews_container{
+    position: relative;
+    width: 1920px;
+    height: 871px;
+    margin-top: 120px;
+}
+.Reviews_background{
+    position: relative;
+    width: 1920px;
+    height: 871px;
+}
+.Reviews_info{
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    width: 1320px;
+    height: 610px;
+    transform: translate(-50%, -50%);
+}
+.Reviews_heading{
+    font-family: inter;
+    font-weight: 700;
+    font-size: 29.53px;
+    line-height: 45px;
+    color: #05073C;
+    margin-left: 524px;
+}
+.Reviews_Service{
+        width: 630px;
+        height: 405px;
+        margin-left: 345px;
+}
+.Reviews_Service_image{
+    width: 100px;
+    height: 100px;
+    margin-left: 265px;
+    margin-top: 10px;
+}
+.Reviews_Service_text{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 17.58px;
+    line-height: 33.75px;
+    color: #EB662B;
+    margin-left: 240px;
+    margin-top: 40px;
+}
+.Reviews_Service_info{
+    font-family: inter;
+    font-weight: 500;
+    font-size: 19.53px;
+    line-height: 37.5px;
+    color: #05073C;
+    text-align: center;
+}
+.Reviews_Service_Author{
+    font-family: Inter;
+    font-size: 15.75px;
+    line-height: 25.6px;
+    font-weight: 500;
+    text-align: center;
+}

@@ -1,0 +1,210 @@
+.Footer_container{
+    position: relative;
+    width: 2000px;
+    height: 745px;
+}
+
+.Footer_background{
+    position: relative;
+    width: 2000px;
+    height: 745px;
+}
+
+.Footer_info_container{
+    position: absolute;
+    width: 1320px;
+    height: 655px;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Footer_info_phone_number{
+    width: 1290px;
+    height: 185px;
+    border-bottom: solid 1px #EB662B2B;
+}
+.Footer_info_phone_text{
+    font-family: Inter;
+    font-size: 19.69px;
+    font-weight: 500;
+    line-height: 37.5px;
+
+}
+.Footer_info_phone_number_text{
+    color: #EB662B ;
+}
+.Footer_info_ft{
+    display: flex;
+    flex-direction: row;
+}
+.Footer_info_contact{
+    display: flex;
+    width: 439px;
+    height: 390px;
+    margin-top: 40px;
+    flex-direction: column;
+}
+.Footer_info_contact_text{
+    padding-top: 20px;
+    padding-left: 15px;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #05073c;
+}
+.Footer_info_address{
+    padding-top: 20px;
+    padding-left: 15px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 14.41px;
+    line-height: 30px;
+    color: #05073c;
+}
+.Footer_info_email{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 14.41px;
+    line-height: 30px;
+    color: #05073c;
+    padding-left: 15px;
+}
+.Footer_info_Company{
+    display: flex;
+    width: 128px;
+    height: 390px;
+    margin-top: 40px;
+    flex-direction: column;
+    row-gap: 13px;
+}
+.Footer_info_company_text{
+    padding-top: 20px;
+    padding-left: 15px;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #05073c;
+}
+.Footer_info_company_About_us,
+.Footer_info_company_Tourz_Reviews,
+.Footer_info_company_Contact_Us,
+.Footer_info_company_Travel_Guides,
+.Footer_info_company_Data_Policy,
+.Footer_info_company_Cookie_Policy,
+.Footer_info_company_Legal,
+.Footer_info_company_Sitemap{
+    font-family: inter;
+    font-weight: 500;
+    font-size: 14.65px;
+    line-height: 28.13px;
+    text-decoration: none;
+    color: #05073C;
+    margin-left: 15px;
+}
+.Footer_info_Support{
+    display: flex;
+    width: 128px;
+    height: 390px;
+    margin-top: 40px;
+    margin-left: 100px;
+    flex-direction: column;
+    row-gap: 13px;
+}
+.Footer_info_Support_text{
+    padding-top: 20px;
+    padding-left: 15px;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #05073c;
+}
+.Footer_info_company_Get_in_Touch,
+.Footer_info_company_Help_center,
+.Footer_info_company_Live_chat,
+.Footer_info_company_How_it_works{
+    font-family: inter;
+    font-weight: 500;
+    font-size: 14.65px;
+    line-height: 28.13px;
+    text-decoration: none;
+    color: #05073C;
+    margin-left: 15px;
+}
+.Footer_info_Newsletter{
+    display: flex;
+    width: 330px;
+    height: 390px;
+    margin-top: 40px;
+    margin-left: 100px;
+    flex-direction: column;
+    row-gap: 13px;
+}
+.Footer_info_Newsletter_text{
+    padding-top: 20px;
+    padding-left: 15px;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #05073c;
+}
+.Footer_info_subscribe{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 14.65px;
+    line-height: 28.13px;
+    margin-left: 14px;
+}
+.Footer_info_subscribe_input_container{
+    display: flex;
+    flex-direction: row;
+    width: 360px;
+}
+.Footer_info_subscribe_input{
+    width: 350px;
+    height: 60px;
+    border: 1px solid #E7E6E6 ;
+    border-radius: 12px;
+    outline: none;
+    margin-left: 13px;
+}
+.Footer_info_subscribe_input::placeholder{
+    padding: 21px;
+}
+.Footer_info_subscribe_send{
+    width: 80px;
+    margin-left: 10px;
+    outline: none;
+    border: 1px solid #E7E6E6;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+.Footer_info_mobile_apps{
+    font-family: inter;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #05073c;
+    margin-left: 15px;
+}
+.Footer_info_ios_app{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 14.65px;
+    line-height: 28.13px;
+    color: #05073C;
+    margin-left: 41px;
+}
+.Footer_info_android_app{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 14.65px;
+    line-height: 28.13px;
+    color: #05073C;
+    margin-left: 41px;
+}
+
+

@@ -1,0 +1,62 @@
+.About__Container {
+  width: 1320px;
+  height: 400px;
+  margin-left: 380px;
+  margin-top: 120px;
+
+}
+.About__Tourz {
+  font-family: Inter;
+  font-weight: 700;
+  color: #05073c;
+  font-size: 29.3px;
+  line-height: 45px;
+}
+.About__Icons_container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 1320px;
+  height: 300px;
+}
+.About__ticket,
+.About__medal,
+.About__ballon,
+.About__diamond {
+  margin-top: 40px;
+  width: 300px;
+  height: 300px;
+}
+
+.About__ticket_text,
+.About__ballon_text,
+.About__diamond_text,
+.About__medal_text{
+  display: flex;
+  margin-top: 20px;
+  font-family: Inter;
+  font-size: 17.86px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0px;
+  color: #05073c;
+}
+
+.About__ticket__icons,
+.About__ballon__icons,
+.About__diamond__icons,
+.About__medal__icons {
+  width: 60px;
+  height: 60px;
+}
+.About__ticket_desc,
+.About__ballon_desc,
+.About__diamond_desc,
+.About__medal_desc{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14.88px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #05073c;
+}

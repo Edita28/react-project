@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  min-height: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 7798.89px;
+}
+.container {
+  width: 70%;
+  max-width: 1670px;
+  padding: 0 360px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 23px;
+}
+.header__navigation {
+  flex-direction: row;
+  display: flex;
+  gap: 40px;
+}
+
+.header__navigation_active {
+  font-family: inter;
+  background: #eb662b;
+  color: white;
+  width: 83px;
+  height: 44px;
+  border-radius: 200px;
+  font-size: 14px;
+  letter-spacing: 0%;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  text-decoration: none;
+}
+.header__navigation_sign {
+  font-family: inter;
+  color: rgb(0, 0, 0);
+  width: 70px;
+  height: 44px;
+  border-radius: 200px;
+  font-size: 15px;
+  letter-spacing: 0%;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header__navigation_usd {
+  font-family: inter;
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: 44px;
+  border-radius: 200px;
+  font-size: 15px;
+  letter-spacing: 0%;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.header__navigation_activities {
+  font-family: inter;
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: 44px;
+  border-radius: 200px;
+  font-size: 15px;
+  letter-spacing: 0%;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  text-decoration: none;
+}
+
+.header__navigation_destinations {
+  font-family: inter;
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: 44px;
+  border-radius: 200px;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 36px;
+}

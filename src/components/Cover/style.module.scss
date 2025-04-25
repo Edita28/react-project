@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+.cover_container{
+    position: relative;
+    width: 1800px;
+    height: 702px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.cover__image{
+    width: 1800px;
+    height: 702px;
+}
+.cover__heading{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Inter;
+    color: white;
+    font-weight: 600;
+    font-size: 69.73px;
+    line-height: 84px;
+    text-decoration: none;
+}
+.cover__dest{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Inter;
+    letter-spacing: 0%;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 15px;
+    color: white;
+}
+.cover__search_form{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    top: 62%;
+    left: 50%;
+    width: 850px;
+    height: 80px;
+    background-color: aliceblue;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    gap: 10px;
+}
+.cover__search_where{
+    width: 224px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 14px;
+}
+.cover__search_where_text{
+    font-size: 14.88px;
+    font-family: Inter;
+    color: #05073C;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.cover_when_container{
+    width: 224px;
+    height: 50px;
+    margin-top: 15px;
+}
+.cover_where_container{
+    width: 224px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.cover_type_container{
+    display: flex;
+    flex-direction: column;
+    gap: 2p;
+    width: 224px;
+    height: 50px;
+    margin-top: 15px;
+}
+.cover_where_heading{
+    font-family: Inter;
+    font-size: 14.88px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #05073C;
+    margin-left: 60px;
+}
+.cover_where_input{
+    width: 128.56px;
+    height: 18px;
+    margin-left: 60px;
+    border: none;
+    outline:none;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 13.67px;
+    line-height: 19.6;
+}
+.cover_where_input::placeholder{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 13.67px;
+    line-height: 19.6;
+    color: #717171;
+}
+.cover_type_heading{
+    font-family: Inter;
+    font-size: 14.88px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #05073C;
+    margin-left: 60px;
+}
+.cover_type_tour{
+    font-family: inter;
+    font-size: 13.78px;
+    line-height: 19.6px;
+    font-weight: 400;
+    color: #717171;
+    margin-left: 60px;
+}
+.cover_search_button{
+    width: 136px;
+    height: 60px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 12px;
+    background-color: #EB662B;
+    border: none;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14.65px;
+    line-height: 28px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,90 @@
+.Popular_container{
+    width: 1320px;
+    height: 940px;
+    margin-left: 300px;
+    
+}
+.Popular_text{
+    font-size: 29.41px;
+    font-family: inter;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0px;
+}
+.Popular_Cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.Paris_Card,
+.Usa_Card,
+.UK_Card,
+.NewYork_Card,
+.France_Card,
+.Usa_Clear_Card,
+.London_UK_Card{
+    width: 300px;
+    height: 388px;
+    border-radius: 12px;
+    border: #E7E6E6 solid 1px;
+}
+.USA_Mauna_Card{
+    width: 300px;
+    height: 412px;
+    border-radius: 12px;
+    border: #E7E6E6 solid 1px;
+}
+.paris_centipede_img,
+.usa_molokini_img,
+.uk_westminster_img,
+.paris_space_img,
+.usa_all_img,
+.usa_clear_img,
+.uk_history_img,
+.usa_mauna_img{
+    width: 278px;
+    height: 198px;
+    margin-left: 11px;
+    margin-top: 11px;
+}
+.location{
+    margin-left: 42px;
+    font-family: Inter;
+    font-size: 12.29px;
+    line-height: 24.38px;
+    color: #717171;
+}
+.Popular_disc{
+    margin-left: 21px;
+    font-family: Inter;
+    font-size: 15.29px;
+    font-weight: 500;
+    line-height: 24.38px;
+    letter-spacing: 0px;
+    color: #05073c;
+}
+.Popular_price_days{
+    display: flex;
+    width: 258px;
+    height: 41px;
+    border-top: 1px solid #E7E6E6;
+    margin-left: 21px;
+}
+.Popular_days{
+    display: flex;
+    font-weight: 400;
+    font-size: 12.59px;
+    line-height: 24.38px;
+    color: #05073c;
+    font-family: inter;
+    margin-left: 30px;
+}
+.Popular_price{
+    display: flex;
+    margin-left: 90px;
+    font-family: Inter;
+    font-size: 13px;
+    line-height: 24.38px;
+    color: #05073C;
+}

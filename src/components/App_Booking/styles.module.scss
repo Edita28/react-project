@@ -1,0 +1,99 @@
+.App_Booking_container{
+    position: relative;
+    width: 1530px;
+    height: 514px;
+    margin-left: 195px;
+}
+.App_Booking_img{
+    position: relative;
+    width: 1530px;
+    height: 514px;
+}
+.App_Booking_specialoffer{
+    position: absolute;
+    font-family: Inter;
+    font-size: 39.53px;
+    font-weight: 700;
+    color: #ffffff;
+    top: 0%;
+    left: 0%;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+.App_Booking_info{
+    position: absolute;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14.53px;
+    line-height: 28.13px;
+    color: #ffffff;
+    top: 0%;
+    left: 0%;
+    margin-top: 218px;
+    margin-left: 120px;
+}
+.App_Booking_magic_link{
+    position: absolute;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 17.58px;
+    line-height: 33.75px;
+    color: #ffffff;
+    top: 0%;
+    left: 0%;
+    margin-top: 310px;
+    margin-left: 120px;
+}
+.App_Booking_input{
+    position: absolute;
+    width: 350px;
+    height: 60px;
+    border-radius: 12px;
+    border: none;
+    font-family: Inter;
+    font-size: 14.77px;
+    font-weight: 400;
+    line-height: 100%;
+    top: 0%;
+    left: 0%;
+    margin-top: 354px;
+    margin-left: 120px;
+    outline:none;
+    padding-left: 30px;
+}
+.App_Booking_input::placeholder{
+    font-family: Inter;
+    font-size: 14.77px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #757575;
+}
+.App_Booking_Send{
+    position: absolute;
+    width: 107px;
+    height: 63px;
+    border-radius: 12px;
+    border: none;
+    font-family: Inter;
+    font-size: 14.65px;
+    font-weight: 500;
+    color: #4A43C4;
+    line-height: 28px;
+    top: 0%;
+    left: 0%;
+    margin-top: 354px;
+    margin-left: 510px;
+}
+.App_Booking_Phone{
+    position: absolute;
+    width: 667px;
+    height: 500px;
+    font-family: Inter;
+    font-size: 39.53px;
+    font-weight: 700;
+    color: #ffffff;
+    top: 0%;
+    left: 0%;
+    margin-top: 14px;
+    margin-left: 780px;
+}
